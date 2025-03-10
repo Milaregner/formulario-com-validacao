@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário com validação</title>
+
+    <!-- limks internos -->
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/resposnsive.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <!-- links externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <div class="informations">
+        <h1>FICOU COM DÚVIDA? <br> MANDE UMA MENSAGEM!</h1>
+        <p>caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+      </div>
+      
+      <div class="form">
+
+        <label for="firstName" class="sr-only">Nome</label>
+        <input
+          placeholder="Nome completo *"
+          name="firstName"
+          id="firstName"
+          class="a"
+        />
+        <span class="errorMessage desativado">Campo obrigatório</span>
+
+        <label for="email" class="sr-only">Email</label>
+        <input
+          placeholder="Email *"
+          name="email"
+          id="email"
+          class="a"
+        />
+        <span class="errorMessage desativado">Campo obrigatório</span>
+
+        <label for="telefone" class="sr-only">Telefone</label>
+        <input
+          placeholder="Telefone *"
+          name="telefone"
+          id="lastName"
+          class="a"
+        />
+        <span class="errorMessage desativado">Campo obrigatório</span>
+
+        <label for="message" class="sr-only">Mensagem</label>
+        <textarea
+          placeholder="Mensagem *"
+          name="message"        
+          id="message"
+          class="a"
+          rows="5"
+          
+        ></textarea>
+        <span class="errorMessage desativado">Campo obrigatório</span>
+
+        <p>*campos obrigatórios</p>
+
+        <button id="btn">Enviar</button>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
