@@ -38,7 +38,7 @@ Este é um projeto de **formulário com validação**, desenvolvido com **HTML, 
 
 ## 📌 Melhorias Futuras
 
-- Melhorar a acessibilidade e reponsividade
+- Melhorar a acessibilidade e responsividade
 - Adicionar animações para melhor experiência do usuário
 - Implementar validação adicional com expressões regulares
 
